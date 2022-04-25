@@ -60,7 +60,7 @@ export default {
         // console.log("valid:", valid);
         if (!valid) return false;
         this.res = await LoginApi(this.loginFrom);
-        // console.log("是否登录成功：", res);
+        // console.log("是否登录成功：", res); 
         this.$router.push("/home");
       });
     },
